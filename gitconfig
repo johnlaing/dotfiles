@@ -16,3 +16,6 @@
   context = 4
 [core]
   excludesfile = ~/.gitignore
+# local
+[include]
+  path = ~/.gitconfig.local

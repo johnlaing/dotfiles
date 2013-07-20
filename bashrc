@@ -4,3 +4,6 @@ umask 0002
 
 export NETRC=/home/jlaing/.netrc
 export EDITOR=/usr/bin/vim
+
+## local
+[ -f ~/.bashrc.local ] && . ~/.bashrc.local
