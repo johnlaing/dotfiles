@@ -12,6 +12,7 @@ set splitright
 syntax on
 au BufNewFile,BufRead *.r,*.R setf r " don't use rexx syntax
 au BufNewFile,BufRead *.gv setf cpp " gv files look like c++
+au BufNewFile,BufRead *.rabl setf ruby " rabl is just ruby
 
 " indentation
 set tabstop=2
