@@ -10,7 +10,7 @@
   #wordRegex = [^\b]
 [alias]
   fa = fetch --all
-  #fr = fetch --all && rebase
+  pr = pull --rebase
   tree = log --graph --decorate --pretty=oneline --abbrev-commit
 [diff]
   context = 4
