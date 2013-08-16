@@ -1,6 +1,8 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
+runtime bundle/vim-tslime/plugin/tslime.vim
+
 set hlsearch
 let g:solarized_termcolors=256
 set t_Co=16
@@ -29,6 +31,11 @@ au FileType r setlocal tabstop=4 softtabstop=4 shiftwidth=4 " 4-space indentatio
 
 " cut/copy/paste
 nnoremap <space> :let @+=@0<CR>
+
+" tslime (still experimenting)
+vmap <CR> <Plug>SendSelectionToTmux
+"nmap <C-c><C-c> <Plug>NormalModeSendToTmux
+"nmap <C-c>r <Plug>SetTmuxVars
 
 " local
 if filereadable($HOME . "/.vimrc.local")
