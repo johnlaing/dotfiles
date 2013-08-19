@@ -4,3 +4,6 @@
 [submodule "vim/bundle/vim-tslime"]
 	path = vim/bundle/vim-tslime
 	url = https://github.com/jgdavey/tslime.vim.git
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
