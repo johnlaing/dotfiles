@@ -1,8 +1,6 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
-runtime bundle/vim-tslime/plugin/tslime.vim
-
 set hlsearch
 let g:solarized_termcolors=256
 set t_Co=16
