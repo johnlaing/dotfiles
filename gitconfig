@@ -12,6 +12,9 @@
   fa = fetch --all
   pr = pull --rebase
   tree = log --graph --decorate --pretty=oneline --abbrev-commit
+  fm = merge --no-ff
+  k = !gitk --all
+  bv = branch -vv
 [diff]
   context = 4
 [core]
@@ -19,3 +22,5 @@
 # local
 [include]
   path = ~/.gitconfig.local
+[push]
+	default = upstream
