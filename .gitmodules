@@ -10,3 +10,6 @@
 [submodule "vim/bundle/vim-speeddating"]
 	path = vim/bundle/vim-speeddating
 	url = git://github.com/tpope/vim-speeddating.git
+[submodule "colors/dircolors-solarized"]
+	path = colors/dircolors-solarized
+	url = https://github.com/seebi/dircolors-solarized.git
