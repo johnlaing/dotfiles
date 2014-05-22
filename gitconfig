@@ -11,9 +11,9 @@
 [alias]
   fa = fetch --all
   pr = pull --rebase
-  tree = log --graph --decorate --pretty=oneline --abbrev-commit
+  tree = log --graph --decorate --pretty=oneline --abbrev-commit --all
   fm = merge --no-ff
-  k = !gitk --all
+  k = !gitk --all --date-order
   bv = branch -vv
 [diff]
   context = 4
