@@ -16,3 +16,6 @@
 [submodule "vim/bundle/vim-r-plugin"]
 	path = vim/bundle/vim-r-plugin
 	url = https://github.com/vim-scripts/Vim-R-plugin.git
+[submodule "vim/bundle/vim-hybrid"]
+	path = vim/bundle/vim-hybrid
+	url = https://github.com/w0ng/vim-hybrid.git
