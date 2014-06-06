@@ -26,6 +26,7 @@ set autoindent
 filetype plugin indent on
 
 au FileType r setlocal tabstop=4 softtabstop=4 shiftwidth=4 " 4-space indentation for R
+let g:vimrplugin_assign=0
 
 " cut/copy/paste
 nnoremap <space> :let @+=@0<CR>
