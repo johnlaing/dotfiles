@@ -1,4 +1,4 @@
-[ -f ~/.bash_aliases ] && . ~/.bash_aliases
+[ -f ~/.aliases ] && . ~/.aliases
 
 umask 0002
 
