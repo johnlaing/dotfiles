@@ -5,4 +5,4 @@ alias pt="pstree -apsu"
 alias findpg="find . -path ./.git -prune -o"
 
 ## local
-[ -f ~/.bash_aliases.local ] && . ~/.bash_aliases.local
+[ -f ~/.aliases.local ] && . ~/.aliases.local

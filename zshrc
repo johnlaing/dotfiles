@@ -1,5 +1,4 @@
 # Set up the prompt
-
 autoload -Uz promptinit
 promptinit
 prompt adam1
@@ -7,7 +6,7 @@ prompt adam1
 setopt histignorealldups sharehistory
 
 # Aliases, shared with bash
-[ -f ~/.bash_aliases ] && . ~/.bash_aliases
+[ -f ~/.aliases ] && . ~/.aliases
 
 # Use emacs keybindings even if our EDITOR is set to vi
 bindkey -e
