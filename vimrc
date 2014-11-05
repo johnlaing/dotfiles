@@ -5,8 +5,7 @@ set hlsearch
 let g:solarized_termcolors=256
 set t_Co=16
 " set number
-" colorscheme desert
-colorscheme solarized
+ colorscheme desert
 
 set splitbelow
 set splitright
@@ -33,8 +32,8 @@ nnoremap <space> :let @+=@0<CR>
 
 " tslime (still experimenting)
 vmap <CR> <Plug>SendSelectionToTmux
-"nmap <C-c><C-c> <Plug>NormalModeSendToTmux
-"nmap <C-c>r <Plug>SetTmuxVars
+"nmap <CR> <Plug>NormalModeSendToTmux
+nmap <C-c>r <Plug>SetTmuxVars
 
 " local
 if filereadable($HOME . "/.vimrc.local")
