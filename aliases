@@ -1,8 +1,13 @@
 alias l="ls -l --color=auto --group-directories-first -h --time-style=+%Y-%m-%d\ %H:%M:%S"
 alias rd="rdesktop -g workarea"
 alias R="R --no-save --no-restore --silent"
-alias pt="pstree -apsu"
+alias pt="pstree -apu"
 alias findpg="find . -path ./.git -prune -o"
+alias cling="cling -Wall -std=c++11"
+alias rtmux="DISPLAY=:0 tmux attach"
+alias rpkg="R -e 'Rcpp::compileAttributes(); roxygen2::roxygenize()'"
+alias spxml="sed 's/></>\n</g'"
+alias emacs='emacs -nw'
 
 ## local
 [ -f ~/.aliases.local ] && . ~/.aliases.local
