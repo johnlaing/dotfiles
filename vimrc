@@ -28,9 +28,9 @@ let g:vimrplugin_assign=0
 " cut/copy/paste
 nnoremap <space> :let @+=@0<CR>
 
-" tslime (still experimenting)
+" tslime
 vmap <CR> <Plug>SendSelectionToTmux
-"nmap <CR> <Plug>NormalModeSendToTmux
+"nmap <CR> <Plug>NormalModeSendToTmux " haven't figured this one out yet
 nmap <C-c>r <Plug>SetTmuxVars
 
 " local

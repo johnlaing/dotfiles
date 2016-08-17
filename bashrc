@@ -22,5 +22,17 @@ tmirr() {
   return 1
 }
 
+sqld() {
+  if [ $# -lt 2 ]; then
+    echo "usage: sqld <file> <table> [db args]"
+    return 1;
+  fi
+  local FILE="$1"; shift
+  local TABLE="$1"; shift
+
+  local COLS="$(head -1 $FILE | sed 's/\./_/g')"
+  psql $* -c "copy $TABLE ($COLS) from stdin with csv header" < $FILE
+}
+
 ## local
 [ -f ~/.bashrc.local ] && . ~/.bashrc.local
