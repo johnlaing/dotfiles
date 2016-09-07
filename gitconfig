@@ -11,10 +11,13 @@
 [alias]
   fa = fetch --all
   pr = pull --rebase
-  tree = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  l = log --pretty=format:'%C(yellow)%h %Cblue%ad %Cgreen%an %Cred%d %Creset%s ' --graph --date=short
   fm = merge --no-ff
   k = !gitk --all --date-order
   bv = branch -vv
+  co = checkout
+  cm = commit -m
+  save = commit -am "WIP"
 [diff]
   context = 4
 [core]

@@ -1,6 +1,6 @@
 alias l="ls -l --color=auto --group-directories-first -h --time-style=+%Y-%m-%d\ %H:%M:%S"
 alias grep="grep --color=auto"
-alias g="git status"
+alias g="git status -bs"
 alias rd="rdesktop -g workarea"
 alias R="R --no-save --no-restore --silent"
 alias pt="pstree -apu"
