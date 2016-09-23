@@ -11,7 +11,8 @@
 [alias]
   fa = fetch --all
   pr = pull --rebase
-  l = log --pretty=format:'%C(yellow)%h %Cblue%ad %Cgreen%an %Cred%d %Creset%s ' --graph --date=short
+  l = log --pretty=format:'%C(yellow)%h %Cblue%ad %Cgreen%an %Cred%d %Creset%s ' --graph --date=short --date-order
+  la = log --pretty=format:'%C(yellow)%h %Cblue%ad %Cgreen%an %Cred%d %Creset%s ' --graph --date=short --date-order --all
   fm = merge --no-ff
   k = !gitk --all --date-order
   bv = branch -vv
