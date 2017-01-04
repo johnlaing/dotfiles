@@ -34,5 +34,9 @@ sqld() {
   psql $* -c "copy $TABLE ($COLS) from stdin with csv header" < $FILE
 }
 
+## todo
+alias t='~/dotfiles/bin/todo.txt-cli/todo.sh'
+source ~/dotfiles/bin/todo.txt-cli/todo_completion
+
 ## local
 [ -f ~/.bashrc.local ] && . ~/.bashrc.local

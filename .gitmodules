@@ -34,3 +34,6 @@
 [submodule "vim/bundle/vim-clang-format"]
 	path = vim/bundle/vim-clang-format
 	url = https://github.com/rhysd/vim-clang-format.git
+[submodule "bin/todo.txt-cli"]
+	path = bin/todo.txt-cli
+	url = https://github.com/ginatrapani/todo.txt-cli.git
