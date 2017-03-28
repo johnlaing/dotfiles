@@ -37,3 +37,6 @@
 [submodule "bin/todo.txt-cli"]
 	path = bin/todo.txt-cli
 	url = https://github.com/ginatrapani/todo.txt-cli.git
+[submodule "vim/bundle/stan.vim"]
+	path = vim/bundle/stan.vim
+	url = https://github.com/maverickg/stan.vim.git
