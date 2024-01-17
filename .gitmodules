@@ -40,3 +40,6 @@
 [submodule "vim/bundle/stan.vim"]
 	path = vim/bundle/stan.vim
 	url = https://github.com/maverickg/stan.vim.git
+[submodule "vim/bundle/copilot.vim"]
+	path = vim/bundle/copilot.vim
+	url = https://github.com/github/copilot.vim
